@@ -23,6 +23,8 @@ Stats Statistics::ComputeStatistics(const std::vector<flaot>&data) {
 	}
 	return val;
 }
+
+
 void StatsAlerter::checkAndAlert(const std::vector<float>& data)
 {
 	float max = data[0];
