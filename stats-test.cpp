@@ -18,6 +18,7 @@ TEST_CASE("average is NaN for empty array") {
     //All fields of computedStats (average, max, min) must be
     //NAN (not-a-number), as defined in math.h
     
+    
     //Design the REQUIRE statement here.
     //Use http://www.cplusplus.com/reference/cmath/isnan/
 }
