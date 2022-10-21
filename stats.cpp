@@ -1,9 +1,9 @@
 #include "stats.h"
-using namespace std;
-Stats Statistics::ComputeStatistics(const std::vector<flaot>&data) {
+
+Stats Statistics::ComputeStatistics(const std::vector<float>& data) {
     //Implement statistics here
     Stats val;
-    if (data.size() > 0)
+	if (data.size() > 0)
 	{
 		float avg = 0;
 		for (auto input : data)
