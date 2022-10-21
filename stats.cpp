@@ -1,5 +1,5 @@
 #include "stats.h"
-
+using namespace std;
 Stats Statistics::ComputeStatistics(const std::vector<flaot>&data) {
     //Implement statistics here
     Stats val;
